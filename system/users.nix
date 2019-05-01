@@ -9,6 +9,7 @@
       home = "/home/kb";
       shell = pkgs.zsh;
       extraGroups = [ "users"
+                      "docker"
                       "wheel"
                       "networkmanager"
                       "systemd-journal"
