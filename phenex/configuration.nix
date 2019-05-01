@@ -10,6 +10,7 @@
       ./secrets.nix
       ./services/clamav.nix
       ./services/firewall.nix
+      ./services/docker.nix
       ./services/dnsmasq.nix
       ./services/sound.nix
       ./services/x11.nix
