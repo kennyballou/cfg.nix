@@ -99,6 +99,7 @@
      pandoc
      paperkey
      parallel
+     pass
      patch
      patchutils
      plantuml
