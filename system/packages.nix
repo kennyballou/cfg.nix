@@ -32,6 +32,7 @@
      exiv2
      fd
      ffmpeg
+     file
      findutils
      firefox
      fontconfig
