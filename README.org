@@ -1,12 +1,28 @@
 #+LINK: gpl-html https://www.gnu.org/licenses/gpl-3.0.html
 #+LINK: nixos https://nixos.org/
 #+LINK: nix https://nixos.org/nix/
+#+LINK: nixos-manual https://nixos.org/nixos/manual/index.html
 * cfg.nix
 
 This is the beginning.  There is much to learn and configure and
 reconfigure.  Look for changes if interested.
 
 Personal repository of [[nixos][~NixOS/Nix~]] configurations.
+
+** Installation
+
+The current installation process is to create a hardlink to the
+machine's ~configuration.nix~ and ~hardware-configuration.nix~ files
+from their respective subfolders.  The entire ~/etc/nixos~ folder is
+owned by the local user.  To achieve this, however, will require some
+manual ownership changes.
+
+*** New Machines
+
+Currently, provisioning new machines will likely look like the regular
+process from the [[nixos-manual][~NixOS~ Manual]], except we will add
+~git~ to the system packages and rework the ~configuration.nix~ and
+~hardware-configuration.nix~ as appropriate.
 
 ** License
 
