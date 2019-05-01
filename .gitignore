@@ -2,3 +2,4 @@
 /hardware-configuration.nix
 secrets.nix
 *~
+result
