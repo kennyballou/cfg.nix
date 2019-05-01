@@ -1,0 +1,17 @@
+#+LINK: gpl-html https://www.gnu.org/licenses/gpl-3.0.html
+#+LINK: nixos https://nixos.org/
+#+LINK: nix https://nixos.org/nix/
+* cfg.nix
+
+This is the beginning.  There is much to learn and configure and
+reconfigure.  Look for changes if interested.
+
+Personal repository of [[nixos][~NixOS/Nix~]] configurations.
+
+** License
+
+These configurations are released and made available as free and
+open-source software AS-IS and WITHOUT warrenty under the terms and
+conditions set out by the GNU General Public license, version 3, (or at
+your option a later version).  For more information, please see the
+included ~LICENSE~ file, or view the [[gpl-html][license online]].
