@@ -81,6 +81,7 @@
      mkpasswd
      msmtp
      mtr
+     mu
      ncdu
      nfs-utils
      nix-bash-completions
