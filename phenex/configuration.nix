@@ -18,6 +18,7 @@
       ./services/kde.nix
       ./services/compton.nix
       ./services/haveged.nix
+      ./system/ca.nix
       ./system/i18n.nix
       ./system/networking.nix
       ./system/packages.nix
