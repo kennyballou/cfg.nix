@@ -8,6 +8,7 @@
   imports =
     [ ./hardware-configuration.nix
       ./secrets.nix
+      ./overlays.nix
       ./services/clamav.nix
       ./services/firewall.nix
       ./services/docker.nix
