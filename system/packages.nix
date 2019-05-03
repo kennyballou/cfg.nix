@@ -71,6 +71,7 @@
      jq
      kdeApplications.gwenview
      kdeApplications.kcachegrind
+     kdeApplications.okular
      ledger
      less
      libreoffice
