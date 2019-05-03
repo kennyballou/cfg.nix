@@ -69,6 +69,7 @@
      iperf
      isync
      jq
+     kdeApplications.gwenview
      kdeApplications.kcachegrind
      ledger
      less
