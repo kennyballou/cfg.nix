@@ -18,6 +18,7 @@
       /etc/nixos/services/kde.nix
       /etc/nixos/services/compton.nix
       /etc/nixos/services/haveged.nix
+      /etc/nixos/services/emacs.nix
       /etc/nixos/services/sshd.nix
       /etc/nixos/system/ca.nix
       /etc/nixos/system/i18n.nix
