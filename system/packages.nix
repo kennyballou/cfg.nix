@@ -26,7 +26,7 @@
      docker-compose
      dot2tex
      doxygen
-     emacs
+     emacsToolsEnv
      enchant
      entr
      exiv2
