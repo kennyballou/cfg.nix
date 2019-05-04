@@ -6,14 +6,14 @@ let
 
   in {
 
-    emacsToolsEnv = super.buildEnv {
+    emacsOverlay = super.buildEnv {
       name = "emacsTools";
       paths = [
         emacsWithPkgs
-	self.mu
-	self.multimarkdown
-	self.poppler
-	self.haskellPackages.pandoc
+        self.mu
+        self.multimarkdown
+        self.poppler
+        self.haskellPackages.pandoc
       ];
     };
   }
