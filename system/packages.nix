@@ -16,14 +16,14 @@
      chromium
      clamav
      clementine
+     cppOverlay
      cryptsetup
      dejavu_fonts
      diffstat
      diffutils
      ditaa
      dnsutils
-     docker
-     docker-compose
+     dos2unix
      dot2tex
      doxygen
      emacsOverlay
@@ -38,14 +38,8 @@
      fontconfig
      fzf
      gawk
-     gdb
      gimp
-     git
-     gitAndTools.git-crypt
-     gitAndTools.gitFastExport
-     gitAndTools.pass-git-helper
-     gitAndTools.tig
-     gitstats
+     gitOverlay
      global
      gnugrep
      gnumake
@@ -53,6 +47,8 @@
      gnuplot
      gnused
      gnutar
+     gnutls
+     goOverlay
      graphviz-nox
      groff
      hammer
@@ -69,6 +65,7 @@
      iperf
      isync
      jq
+     jsOverlay
      kdeApplications.gwenview
      kdeApplications.kcachegrind
      kdeApplications.okular
@@ -86,16 +83,9 @@
      mu
      ncdu
      nfs-utils
-     nix-bash-completions
-     nix-diff
-     nix-zsh-completions
+     nixOverlay
      nmap
-     nodePackages.csslint
-     nodePackages.eslint
-     nodePackages.js-beautify
-     nodejs
      octave
-     openjdk8
      openssh
      openssl
      openvpn
@@ -110,26 +100,19 @@
      poppler_utils
      pstree
      pv
-     python27
-     python27Packages.certifi
-     python27Packages.pygments
-     python27Packages.setuptools
-     python3
-     python37Packages.gprof2dot
-     python37Packages.ipdb
-     python37Packages.ipython
-     python37Packages.setuptools
-     pythonDocs.html.python27
-     pythonDocs.pdf_letter.python27
-     qemu
+     pythonOverlay
      qrencode
      remind
      renameutils
      ripgrep
      rsync
      rtags
+     rustOverlay
      screen
+     shellcheck
+     silver-searcher
      smartmontools
+     socat
      sourceHighlight
      stow
      strace
@@ -141,9 +124,9 @@
      tree
      unzip
      urlwatch
-     valgrind
      vim
      vlc
+     virtualizationOverlay
      w3m
      watch
      watchman
