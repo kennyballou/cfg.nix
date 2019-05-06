@@ -20,6 +20,7 @@
       /etc/nixos/services/compton.nix
       /etc/nixos/services/haveged.nix
       /etc/nixos/system/ca.nix
+      /etc/nixos/system/fonts.nix
       /etc/nixos/system/i18n.nix
       /etc/nixos/system/networking.nix
       /etc/nixos/system/packages.nix
