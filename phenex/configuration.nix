@@ -6,27 +6,27 @@
 
 {
   imports =
-    [ /etc/nixos/hardware-configuration.nix
-      /etc/nixos/secrets.nix
-      /etc/nixos/overlays.nix
-      /etc/nixos/services/clamav.nix
-      /etc/nixos/services/firewall.nix
-      /etc/nixos/services/docker.nix
-      /etc/nixos/services/dnsmasq.nix
-      /etc/nixos/services/sound.nix
-      /etc/nixos/services/x11.nix
-      /etc/nixos/services/x11-laptop.nix
-      /etc/nixos/services/kde.nix
-      /etc/nixos/services/compton.nix
-      /etc/nixos/services/haveged.nix
-      /etc/nixos/system/ca.nix
-      /etc/nixos/system/fonts.nix
-      /etc/nixos/system/i18n.nix
-      /etc/nixos/system/networking.nix
-      /etc/nixos/system/packages.nix
-      /etc/nixos/system/timezone.nix
-      /etc/nixos/system/users.nix
-      /etc/nixos/system/yubikey-gpg.nix
+    [ ./hardware-configuration.nix
+      ../secrets.nix
+      ../overlays.nix
+      ../services/clamav.nix
+      ../services/firewall.nix
+      ../services/docker.nix
+      ../services/dnsmasq.nix
+      ../services/sound.nix
+      ../services/x11.nix
+      ../services/x11-laptop.nix
+      ../services/kde.nix
+      ../services/compton.nix
+      ../services/haveged.nix
+      ../system/ca.nix
+      ../system/fonts.nix
+      ../system/i18n.nix
+      ../system/networking.nix
+      ../system/packages.nix
+      ../system/timezone.nix
+      ../system/users.nix
+      ../system/yubikey-gpg.nix
     ];
 
   networking.hostName = "phenex";
