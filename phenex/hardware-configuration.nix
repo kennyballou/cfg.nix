@@ -16,43 +16,49 @@
       "/dev/disk/by-id/wwn-0x5002538e40de02bf"
   ];
   boot.initrd.luks.devices.cryptroot.device = "/dev/disk/by-uuid/64dbda22-7a05-4d1c-a64b-bbbc779f1bdc";
-  boot.initrd.availableKernelModules = [ "xhci_pci" "ehci_pci" "ahci" "usbhid" "usb_storage" "sd_mod" "sr_mod" "sdhci_pci" ];
+
+  boot.initrd.availableKernelModules = [ "xhci_pci" "ehci_pci" "ahci" "usb_storage" "sd_mod" "sdhci_pci" ];
   boot.kernelModules = [ "kvm-intel" ];
   boot.extraModulePackages = [ ];
 
   fileSystems."/" =
-    { device = "/dev/disk/by-uuid/d8009534-e327-4c83-965d-91791736db2a";
-      fsType = "ext4";
-    };
-
-  fileSystems."/boot" =
-    { device = "/dev/disk/by-uuid/211b4a9d-71b5-4262-9082-cac1c7a6b60b";
-      fsType = "ext4";
-    };
-
-  fileSystems."/var" =
-    { device = "/dev/disk/by-uuid/7b849f20-ac8e-4158-b595-fc7fa46f713f";
-      fsType = "ext4";
-    };
-
-  fileSystems."/var/lib/docker" =
-    { device = "/dev/disk/by-uuid/7ece83d5-9f2f-4775-8efa-c53783f3a607";
-      fsType = "btrfs";
-    };
-
-  fileSystems."/nix" =
-    { device = "/dev/disk/by-uuid/cae3edd4-e35f-4338-ab74-d2df99fc5689";
-      fsType = "ext4";
-    };
-
-  fileSystems."/gnu" =
-    { device = "/dev/disk/by-uuid/8726cdc2-aeed-40f4-81b9-402b78fb14a0";
+    { device = "/dev/disk/by-uuid/5767e0c7-98bb-4d4c-9791-270560bf2b25";
       fsType = "ext4";
     };
 
   fileSystems."/home" =
     { device = "/dev/disk/by-uuid/7f348443-ac88-427a-979a-6bcc359ab47a";
       fsType = "xfs";
+    };
+
+  fileSystems."/gnu" =
+    { device = "/dev/disk/by-uuid/9b6bc9c3-3466-4811-8997-90bf273f8a0f";
+      fsType = "xfs";
+    };
+
+  fileSystems."/nix" =
+    { device = "/dev/disk/by-uuid/47b6583e-93f0-4291-bfc1-d965dde50e74";
+      fsType = "xfs";
+    };
+
+  fileSystems."/var" =
+    { device = "/dev/disk/by-uuid/2e794e37-bcca-4d4a-91a5-63803f3363d1";
+      fsType = "ext4";
+    };
+
+  fileSystems."/boot" =
+    { device = "/dev/disk/by-uuid/597144ea-1752-4c3d-a490-6ff5ce5237fc";
+      fsType = "ext4";
+    };
+
+  fileSystems."/opt" =
+    { device = "/dev/disk/by-uuid/54a24fe6-d33d-437d-8a8c-3cba0bae7d59";
+      fsType = "ext4";
+    };
+
+  fileSystems."/var/lib/docker" =
+    { device = "/dev/disk/by-uuid/7ece83d5-9f2f-4775-8efa-c53783f3a607";
+      fsType = "btrfs";
     };
 
   swapDevices =
