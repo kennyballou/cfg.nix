@@ -1,5 +1,7 @@
 { config, ... }:
 {
   # Firewall configuration
-  networking.firewall.enable = true;
+  networking.firewall.enable = false;
+  networking.nftables.enable = true;
+  networking.nftables.rulesetFile = ./nftables-rules.nft;
 }
