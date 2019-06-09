@@ -57,6 +57,7 @@ pkgs: epkgs: with epkgs;
   fullframe
   geben
   geiser
+  git-auto-commit-mode
   git-commit
   git-timemachine
   gitconfig-mode
