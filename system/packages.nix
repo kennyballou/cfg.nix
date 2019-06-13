@@ -102,6 +102,7 @@
      poppler_utils
      pstree
      pv
+     pwgen
      pythonOverlay
      qrencode
      remind
