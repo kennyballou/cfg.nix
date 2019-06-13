@@ -74,6 +74,7 @@
      less
      libreoffice
      librsvg
+     lsof
      ltrace
      m4
      mercurial
