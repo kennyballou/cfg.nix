@@ -8,7 +8,7 @@
      aria2
      aspell
      aspellDicts.en
-     aws
+     awscli
      autogen
      bash-completion
      bashInteractive
