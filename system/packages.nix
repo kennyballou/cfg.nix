@@ -98,6 +98,7 @@
      pass
      patch
      patchutils
+     pdftk
      plantuml
      poppler_utils
      pstree
