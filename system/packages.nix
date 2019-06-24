@@ -37,6 +37,7 @@
      findutils
      firefox
      fontconfig
+     freecad
      fzf
      gawk
      gimp
