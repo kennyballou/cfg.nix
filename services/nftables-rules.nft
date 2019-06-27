@@ -49,20 +49,20 @@ table inet filter {
 
 table ip nat {
     chain prerouting {
-        type nat hook prerouting priority 0; policy accept;
+        type nat hook prerouting priority 0;
         counter
    chain postrouting {
-        type nat hook postrouting priority 100; policy accept;
+        type nat hook postrouting priority 100;
         counter
     }
 }
 
 table ip6 nat {
     chain prerouting {
-        type nat hook prerouting priority 0; policy accept;
+        type nat hook prerouting priority 0;
         counter
    chain postrouting {
-        type nat hook postrouting priority 100; policy accept;
+        type nat hook postrouting priority 100;
         counter
     }
 }
