@@ -13,6 +13,7 @@
                       "wheel"
                       "networkmanager"
                       "systemd-journal"
+                      "wireshark"
       ];
       openssh.authorizedKeys.keys = [
         "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6rZDmR0reFPduS6O4yOjX1CGs9uokQz5L+qosAduIEW6gTZEZ/OAa4EGdPb0tvbKhrwTC4znUm+wHqnVA3F25mkh4UUDZsgqzL3sppmGNk8z0XprmwnUCmKT7ioS2H7GmITf7WzCoLYOfaQn0VFDGXBwwEUFJqGkvp6naWwZeIUMemU0GDAyHTv5dxR+7tv9Stdne3ymFf03/J6iOMuiD7Q+mHzhPVJPJZpIazYWyBjlAfqujHbA851xJV/m2GUxR2/Nqw3Jv1Rpym+uxzCKIqyP0o66Vn5NLlrqS6bQU7B5FZizih+UebzXxuRk9F3n1R3TUd+yQeBK/rp/nlYoP openpgp:0x584117FD"
