@@ -7,7 +7,6 @@ self: super:
       self.nix-delegate
       self.nix-deploy
       self.nix-diff
-      self.nix-diff
       self.nix-index
       self.nix-prefetch-git
       self.nix-prefetch-github
