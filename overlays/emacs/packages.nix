@@ -88,7 +88,7 @@ pkgs: epkgs: with epkgs;
   magit
   markdown-mode
   mmm-mode
-  multi-term
+  # multi-term
   multiple-cursors
   multiple-cursors
   mwim
