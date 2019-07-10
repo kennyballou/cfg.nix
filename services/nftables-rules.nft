@@ -46,6 +46,7 @@ table inet filter {
         udp dport rsync counter accept
         tcp dport 8000 counter accept
         tcp dport http-alt counter accept
+        udp dport openvpn counter accept
         counter
     }
 }
