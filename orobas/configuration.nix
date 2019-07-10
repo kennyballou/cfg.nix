@@ -26,6 +26,7 @@
       ../system/packages.nix
       ../system/timezone.nix
       ../system/users.nix
+      ../system/wireshark.nix
       ../system/yubikey-gpg.nix
     ];
 
