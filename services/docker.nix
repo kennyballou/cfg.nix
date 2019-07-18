@@ -4,7 +4,7 @@
     enable = true;
     autoPrune.enable = true;
     extraOptions = ''
-    --dns=127.0.0.1 --iptables=false
+    --dns=172.17.0.1 --iptables=false
     '';
     storageDriver = "btrfs";
   };
