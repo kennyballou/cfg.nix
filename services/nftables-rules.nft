@@ -8,7 +8,7 @@ table inet filter {
         iif != lo ip6 daddr ::1/128 counter drop
         ip protocol icmp counter accept
         ip6 nexthdr ipv6-icmp counter accept
-        udp dport domain ip saddr 172.0.0.1/8 counter accept
+        udp dport domain ip saddr 172.16.0.0/12 counter accept
         tcp dport 8000 ip saddr 127.0.0.1/8 counter accept
         tcp dport http-alt ip saddr 127.0.0.1/8 counter accept
         tcp dport ssh counter accept
