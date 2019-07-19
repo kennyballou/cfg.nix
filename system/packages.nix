@@ -124,6 +124,7 @@
      subversion
      svg2tikz
      tcpdump
+     texlive.combined.scheme-medium
      time
      tmux
      tree
