@@ -2,7 +2,6 @@
 {
   # System packages
   environment.systemPackages = with pkgs; [
-     #texFull
      ag
      apg
      aria2
