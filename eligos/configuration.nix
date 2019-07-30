@@ -28,6 +28,7 @@
       ../system/users.nix
       ../system/wireshark.nix
       ../system/yubikey-gpg.nix
+      ./packages.nix
     ];
 
   networking.hostName = "eligos";
