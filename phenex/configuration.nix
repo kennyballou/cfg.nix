@@ -20,6 +20,7 @@
       ../services/compton.nix
       ../services/haveged.nix
       ../system/ca.nix
+      ../system/documentation.nix
       ../system/fonts.nix
       ../system/i18n.nix
       ../system/networking.nix
