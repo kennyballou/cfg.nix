@@ -123,7 +123,7 @@
      subversion
      svg2tikz
      tcpdump
-     texlive.combined.scheme-medium
+     texlive.combined.scheme-full
      time
      tmux
      tree
