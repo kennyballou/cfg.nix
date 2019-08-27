@@ -52,6 +52,7 @@
      goOverlay
      graphviz-nox
      groff
+     guileOverlay
      hammer
      haveged
      highlight
