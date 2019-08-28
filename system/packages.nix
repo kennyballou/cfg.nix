@@ -7,6 +7,8 @@
      aria2
      aspell
      aspellDicts.en
+     aspellDicts.en-computers
+     aspellDicts.en-science
      awscli
      autogen
      bash-completion
