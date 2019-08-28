@@ -5,7 +5,7 @@ self: super:
     paths = [
       self.delve
       self.glide
-      self.go
+      self.go_1_12
       self.gocode
       self.godef
       self.golint
