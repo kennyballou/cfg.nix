@@ -104,6 +104,7 @@ pkgs: epkgs: with epkgs;
   org-pomodoro
   org-ref
   ox-gfm
+  page-break-lines
   pcmpl-args
   pcmpl-git
   pcmpl-pip
