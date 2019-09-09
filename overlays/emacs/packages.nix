@@ -112,6 +112,7 @@ pkgs: epkgs: with epkgs;
   pdf-tools
   peep-dired
   php-mode
+  pinentry
   pip-requirements
   projectile
   python
