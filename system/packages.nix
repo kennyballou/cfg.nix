@@ -126,7 +126,7 @@
      subversion
      svg2tikz
      tcpdump
-     texlive.combined.scheme-full
+     tex-overlay
      time
      tmux
      tree
