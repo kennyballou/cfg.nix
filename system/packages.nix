@@ -43,7 +43,6 @@
      gawk
      gimp
      gitOverlay
-     global
      gnugrep
      gnumake
      gnupg
@@ -73,6 +72,7 @@
      kdeApplications.gwenview
      kdeApplications.kcachegrind
      kdeApplications.okular
+     langOverlay
      ledger
      less
      libreoffice
