@@ -43,7 +43,6 @@ pkgs: epkgs: with epkgs;
   exec-path-from-shell
   expand-region
   f
-  fill-column-indicator
   flycheck
   flycheck-clojure
   flycheck-color-mode-line
