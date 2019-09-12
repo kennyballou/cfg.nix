@@ -55,6 +55,7 @@ pkgs: epkgs: with epkgs;
   forge
   fullframe
   geben
+  geben-helm-projectile
   geiser
   git-auto-commit-mode
   git-commit
@@ -70,6 +71,19 @@ pkgs: epkgs: with epkgs;
   gxref
   haml-mode
   haskell-mode
+  helm
+  helm-bbdb
+  helm-bibtex
+  helm-descbinds
+  helm-flycheck
+  helm-flyspell
+  helm-gtags
+  helm-mu
+  helm-projectile
+  helm-sql-connect
+  helm-tramp
+  helm-wordnet
+  helm-xref
   highlight-escape-sequences
   hindent
   htmlize
@@ -134,6 +148,7 @@ pkgs: epkgs: with epkgs;
   smooth-scrolling
   spaceline
   swiper
+  swiper-helm
   switch-window
   tagedit
   toml-mode
