@@ -127,6 +127,7 @@ pkgs: epkgs: with epkgs;
   php-mode
   pinentry
   pip-requirements
+  polymode
   projectile
   python
   racer
