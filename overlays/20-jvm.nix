@@ -1,6 +1,6 @@
 self: super:
 {
-  jvmOverlay = super.bulidEnv {
+  jvmOverlay = super.buildEnv {
     name = "jvmOverlay";
     paths = [
       self.ammonite
