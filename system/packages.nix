@@ -69,6 +69,7 @@
      isync
      jq
      jsOverlay
+     jvmOverlay
      kdeApplications.gwenview
      kdeApplications.kcachegrind
      kdeApplications.okular
