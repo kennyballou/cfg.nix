@@ -156,6 +156,7 @@ pkgs: epkgs: with epkgs;
   typescript-mode
   undo-tree
   unfill
+  unicode-whitespace
   uptimes
   use-package
   virtualenvwrapper
