@@ -19,6 +19,7 @@
       ../services/kde.nix
       ../services/compton.nix
       ../services/haveged.nix
+      ../services/printing.nix
       ../system/ca.nix
       ../system/documentation.nix
       ../system/fonts.nix
