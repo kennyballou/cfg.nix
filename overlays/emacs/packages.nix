@@ -63,7 +63,9 @@ pkgs: epkgs: with epkgs;
   gitconfig-mode
   gitignore-mode
   go-autocomplete
+  go-eldoc
   go-mode
+  go-stacktracer
   goto-gem
   graphviz-dot-mode
   guide-key
