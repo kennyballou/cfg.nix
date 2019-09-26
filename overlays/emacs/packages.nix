@@ -31,6 +31,7 @@ pkgs: epkgs: with epkgs;
   docker-compose-mode
   docker-tramp
   dockerfile-mode
+  editorconfig
   edts
   ein
   elein
