@@ -14,6 +14,7 @@
      bash-completion
      bashInteractive
      bazaar
+     beam-overlay
      cacert
      chromium
      clamav
