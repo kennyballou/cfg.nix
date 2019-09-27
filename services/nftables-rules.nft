@@ -53,6 +53,7 @@ table inet filter {
         tcp dport http-alt counter accept
         tcp dport 3000 ip daddr 127.0.0.1/8 counter accept
         udp dport openvpn counter accept
+        tcp dport postgresql ip daddr counter accept
         counter
     }
 }
