@@ -79,6 +79,7 @@
      less
      libreoffice
      librsvg
+     linux-overlay
      lsof
      ltrace
      m4
