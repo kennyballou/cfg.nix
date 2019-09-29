@@ -4,6 +4,7 @@ self: super:
     name = "elmOverlay";
     paths = [
       self.elmPackages.elm
+      self.elmPackages.elm-format
     ];
   };
 }
