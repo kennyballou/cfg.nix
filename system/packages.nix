@@ -29,6 +29,7 @@
      dos2unix
      dot2tex
      doxygen
+     elmOverlay
      emacsOverlay
      enchant
      entr
