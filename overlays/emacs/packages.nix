@@ -90,6 +90,7 @@ pkgs: epkgs: with epkgs;
   highlight-escape-sequences
   hindent
   htmlize
+  ibuffer-vc
   import-js
   inf-ruby
   ivy
