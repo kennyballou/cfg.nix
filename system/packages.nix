@@ -105,6 +105,7 @@
      pass
      patch
      patchutils
+     pciutils
      pdftk
      plantuml
      poppler_utils
