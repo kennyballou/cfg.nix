@@ -55,7 +55,6 @@
      goOverlay
      graphviz-nox
      groff
-     guileOverlay
      hammer
      haveged
      highlight
@@ -120,6 +119,7 @@
      rsync
      rtags
      rustOverlay
+     scheme-overlay
      screen
      shellcheck
      silver-searcher

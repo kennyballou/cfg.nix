@@ -1,7 +1,7 @@
 self: super:
 {
-  guileOverlay = super.buildEnv {
-    name = "guileOverlay";
+  scheme-overlay = super.buildEnv {
+    name = "scheme-overlay";
     paths = [
       self.guile
       self.guile-lint
