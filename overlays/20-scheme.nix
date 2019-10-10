@@ -5,6 +5,7 @@ self: super:
     paths = [
       self.guile
       self.guile-lint
+      self.racket
     ];
   };
 }
