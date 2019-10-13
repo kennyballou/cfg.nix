@@ -2,6 +2,7 @@
 {
   # System packages
   environment.systemPackages = with pkgs; [
+     alacritty
      ag
      apg
      aria2
