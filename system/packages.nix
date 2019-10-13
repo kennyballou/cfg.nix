@@ -126,6 +126,7 @@
      smartmontools
      socat
      sourceHighlight
+     spectacle
      stow
      strace
      subversion
