@@ -6,7 +6,7 @@
 
 {
   imports =
-    [ ./hardware-configuration.nix
+    [ ../hardware-configuration.nix
       ../secrets.nix
       ../overlays.nix
       ../services/clamav.nix
@@ -31,6 +31,15 @@
       ../system/wireshark.nix
       ../system/yubikey-gpg.nix
     ];
+
+  # Use the GRUB 2 boot loader.
+  boot.loader.grub.enable = true;
+  boot.loader.grub.version = 2;
+  boot.loader.grub.devices = [
+      "/dev/disk/by-id/wwn-0x5002538e000c21b7"
+      "/dev/disk/by-id/wwn-0x5002538e40de02bf"
+  ];
+  boot.initrd.luks.devices.cryptroot.device = "/dev/disk/by-uuid/64dbda22-7a05-4d1c-a64b-bbbc779f1bdc";
 
   networking.hostName = "phenex";
 
