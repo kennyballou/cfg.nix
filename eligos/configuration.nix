@@ -6,7 +6,7 @@
 
 {
   imports =
-    [ ./hardware-configuration.nix
+    [ ../hardware-configuration.nix
       ../secrets.nix
       ../overlays.nix
       ../services/clamav.nix
