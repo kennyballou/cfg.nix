@@ -36,6 +36,7 @@ pkgs: epkgs: with epkgs;
   ein
   elein
   elfeed
+  elfeed-org
   elixir-mode
   elm-mode
   ensime
