@@ -11,7 +11,7 @@ table inet filter {
         udp dport domain ip saddr 172.16.0.0/12 counter accept
         tcp dport 3000 ip saddr 127.0.0.1/8 counter accept
         tcp dport 8000 ip saddr 127.0.0.1/8 counter accept
-        tcp dport http-alt ip saddr 127.0.0.1/8 counter accept
+        tcp dport http-alt ip saddr { 127.0.0.1/8, 10.1.0.0/8 } counter accept
         tcp dport ssh counter accept
         counter
     }
