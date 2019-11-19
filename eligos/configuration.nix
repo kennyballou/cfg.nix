@@ -26,6 +26,7 @@
       ../system/i18n.nix
       ../system/networking.nix
       ../system/packages.nix
+      ../system/security.nix
       ../system/timezone.nix
       ../system/users.nix
       ../system/wireshark.nix
