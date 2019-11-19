@@ -40,6 +40,9 @@
       "/dev/disk/by-id/wwn-0x5002538e40de02bf"
   ];
   boot.initrd.luks.devices.cryptroot.device = "/dev/disk/by-uuid/64dbda22-7a05-4d1c-a64b-bbbc779f1bdc";
+  boot.blacklistedKernelModules = [
+    "iptables"
+  ];
 
   networking.hostName = "phenex";
 
