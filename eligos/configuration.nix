@@ -77,8 +77,12 @@
         keyFile = "/etc/cvg2";
         fallbackToPassword = true;
       };
-    };    
+    };
   };
+
+  boot.blacklistedKernelModules = [
+    "iptables"
+  ];
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
