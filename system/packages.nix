@@ -151,6 +151,7 @@
      wireshark-qt
      wordnet
      wyrd
+     xorg.xev
      xsv
      xz
      yubikey-personalization
