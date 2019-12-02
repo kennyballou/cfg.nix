@@ -9,6 +9,7 @@ self: super:
       self.global
       self.gnum4
       self.gnumake
+      self.lcov
       self.libtool
       self.pkgconfig
     ];
