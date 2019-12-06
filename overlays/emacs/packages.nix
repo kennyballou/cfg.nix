@@ -39,7 +39,6 @@ pkgs: epkgs: with epkgs;
   elfeed-org
   elixir-mode
   elm-mode
-  ensime
   erlang
   ess
   exec-path-from-shell
