@@ -6,6 +6,7 @@ self: super:
       self.autoconf
       self.autogen
       self.automake
+      self.doxygen
       self.global
       self.gnum4
       self.gnumake
