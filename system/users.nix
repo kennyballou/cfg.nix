@@ -7,7 +7,7 @@
       isNormalUser = true;
       uid = 1000;
       home = "/home/kb";
-      shell = pkgs.zsh;
+      shell = pkgs.bash;
       extraGroups = [ "users"
                       "docker"
                       "wheel"
