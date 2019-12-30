@@ -39,6 +39,8 @@
     "ip_tables"
   ];
 
+  boot.kernelPackages = pkgs.linuxPackages_latest;
+
   networking.hostName = "orobas"; # Define your hostname.
 
   # Enable CUPS to print documents.
