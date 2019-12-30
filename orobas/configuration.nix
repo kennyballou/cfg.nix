@@ -35,6 +35,10 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
+  boot.blacklistedKernelModules = [
+    "ip_tables"
+  ];
+
   networking.hostName = "orobas"; # Define your hostname.
 
   # Enable CUPS to print documents.
