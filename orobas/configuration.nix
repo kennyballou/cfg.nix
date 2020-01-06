@@ -19,6 +19,7 @@
       ../services/x11-laptop.nix
       ../services/kde.nix
       ../services/haveged.nix
+      ../system/bluetooth.nix
       ../system/ca.nix
       ../system/documentation.nix
       ../system/fonts.nix
