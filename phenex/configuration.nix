@@ -17,7 +17,6 @@
       ../services/x11.nix
       ../services/x11-laptop.nix
       ../services/kde.nix
-      ../services/compton.nix
       ../services/haveged.nix
       ../services/printing.nix
       ../system/ca.nix
