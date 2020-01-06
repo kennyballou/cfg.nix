@@ -3,7 +3,7 @@ self: super:
   gitOverlay = super.buildEnv {
     name = "gitOverlay";
     paths = [
-      self.git
+      self.gitFull
       self.gitAndTools.git-crypt
       self.gitAndTools.gitFastExport
       self.gitAndTools.pass-git-helper
