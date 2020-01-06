@@ -72,6 +72,7 @@
      jq
      jsOverlay
      jvmOverlay
+     kde-gtk-config
      kdeApplications.gwenview
      kdeApplications.kcachegrind
      kdeApplications.okular
