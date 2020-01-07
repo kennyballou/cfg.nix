@@ -19,6 +19,7 @@
       ../services/x11-laptop.nix
       ../services/kde.nix
       ../services/haveged.nix
+      ../services/printing.nix
       ../system/bluetooth.nix
       ../system/ca.nix
       ../system/documentation.nix
@@ -44,9 +45,6 @@
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
   networking.hostName = "orobas"; # Define your hostname.
-
-  # Enable CUPS to print documents.
-  services.printing.enable = true;
 
   # This value determines the NixOS release with which your system is to be
   # compatible, in order to avoid breaking some software such as database
