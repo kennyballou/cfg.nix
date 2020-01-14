@@ -65,7 +65,7 @@ table ip nat {
    }
    chain postrouting {
         type nat hook postrouting priority 100;
-        ip saddr 172.16.0.0/12 oifname ens8u2u3 counter masquerade
+        ip saddr 172.16.0.0/12 oifname ens8u2u1 counter masquerade
         ip saddr 172.16.0.0/12 oifname wlp2s0 counter masquerade
         counter
    }
@@ -78,7 +78,7 @@ table ip6 nat {
    }
    chain postrouting {
         type nat hook postrouting priority 100;
-        ip6 saddr fcdd::/48 oifname ens8u2u3 counter masquerade
+        ip6 saddr fcdd::/48 oifname ens8u2u1 counter masquerade
         ip6 saddr fcdd::/48 oifname wlp2s0 counter masquerade
         counter
    }
