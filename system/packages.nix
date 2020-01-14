@@ -30,6 +30,7 @@
      dos2unix
      dot2tex
      doxygen
+     duplicity
      elmOverlay
      emacsOverlay
      enchant
@@ -115,6 +116,7 @@
      pwgen
      pythonOverlay
      qrencode
+     rclone
      remind
      renameutils
      ripgrep
