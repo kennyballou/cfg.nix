@@ -68,7 +68,7 @@ pkgs: epkgs: with epkgs;
   go-mode
   go-stacktracer
   goto-gem
-  gnuplot
+  #gnuplot
   graphviz-dot-mode
   guide-key
   guix
