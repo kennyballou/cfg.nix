@@ -1,0 +1,87 @@
+table inet filter {
+    chain input {
+        type filter hook input priority 0; policy drop;
+        ct state invalid counter drop comment "drop invalid packets"
+        ct state established,related counter accept comment "accept related connections"
+        iif lo counter accept
+        iif != lo ip daddr 127.0.0.1/8 counter drop
+        iif != lo ip6 daddr ::1/128 counter drop
+        ip protocol icmp counter accept
+        ip6 nexthdr ipv6-icmp counter accept
+        udp dport domain ip saddr 172.16.0.0/12 counter accept
+        tcp dport 3000 ip saddr 127.0.0.1/8 counter accept
+        tcp dport 8000 ip saddr 127.0.0.1/8 counter accept
+        tcp dport http-alt ip saddr { 127.0.0.1/8, 10.100.0.0/8 } counter accept
+        counter
+    }
+
+    chain forward {
+        type filter hook forward priority 0; policy drop;
+        ct state established,related counter accept
+        ip saddr 172.16.0.0/12 daddr 0.0.0.0/8 counter accept
+        ip saddr 172.16.0.0/12 ip daddr 172.16.0.0/12 counter accept
+        iifname "docker0" oifname "enp0s25" counter accept
+        iifname "docker0" oifname "wlp2s0" counter accept
+        iifname docker0 oifname != docker0 counter accept
+        counter
+    }
+
+    chain output {
+        type filter hook output priority 0; policy drop;
+        ct state established,related counter accept
+        icmp type echo-request counter accept
+        icmp type echo-reply counter accept
+        udp dport domain counter accept
+        tcp dport http counter accept
+        tcp dport https counter accept
+        tcp dport ssh counter accept
+        tcp dport bootps counter accept
+        udp dport bootps counter accept
+        tcp dport ntp counter accept
+        udp dport ntp counter accept
+        tcp dport nntps counter accept
+        udp dport nntps counter accept
+        tcp dport submission counter accept
+        tcp dport imaps counter accept
+        tcp dport 2222 counter accept
+        tcp dport hkp counter accept
+        udp dport hkp counter accept
+        tcp dport 9100 counter accept
+        tcp dport git counter accept
+        udp dport git counter accept
+        tcp dport rsync counter accept
+        udp dport rsync counter accept
+        tcp dport 8000 counter accept
+        tcp dport http-alt counter accept
+        tcp dport 3000 ip daddr 127.0.0.1/8 counter accept
+        udp dport openvpn counter accept
+        tcp dport postgresql ip daddr { 127.0.0.1/8, 10.0.0.0/8 } counter accept
+        counter
+    }
+}
+
+table ip nat {
+    chain prerouting {
+        type nat hook prerouting priority 0;
+        counter
+   }
+   chain postrouting {
+        type nat hook postrouting priority 100;
+        ip saddr 172.16.0.0/12 oifname enp0s25 counter masquerade
+        ip saddr 172.16.0.0/12 oifname wlp2s0 counter masquerade
+        counter
+   }
+}
+
+table ip6 nat {
+    chain prerouting {
+        type nat hook prerouting priority 0;
+        counter
+   }
+   chain postrouting {
+        type nat hook postrouting priority 100;
+        ip6 saddr fcdd::/48 oifname enp0s25 counter masquerade
+        ip6 saddr fcdd::/48 oifname wlp2s0 counter masquerade
+        counter
+   }
+}
