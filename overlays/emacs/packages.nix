@@ -105,6 +105,7 @@ pkgs: epkgs: with epkgs;
   list-unicode-display
   magit
   markdown-mode
+  meghanada
   mmm-mode
   multiple-cursors
   multiple-cursors
