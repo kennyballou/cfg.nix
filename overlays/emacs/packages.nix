@@ -92,6 +92,7 @@ pkgs: epkgs: with epkgs;
   highlight-escape-sequences
   hindent
   htmlize
+  hydra
   ibuffer-vc
   import-js
   inf-ruby
