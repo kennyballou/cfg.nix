@@ -7,6 +7,7 @@ pkgs: epkgs: with epkgs;
   anti-zenburn-theme
   anzu
   auctex
+  autodisass-java-bytecode
   avy
   bind-key
   browse-kill-ring
