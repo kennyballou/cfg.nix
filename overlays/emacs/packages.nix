@@ -139,7 +139,7 @@ pkgs: epkgs: with epkgs;
   racer
   rainbow-delimiters
   rainbow-mode
-  # realgud
+  realgud
   regex-tool
   robe
   rspec-mode
