@@ -19,6 +19,7 @@
      cacert
      chromium
      clamav
+     clang-overlay
      clementine
      cppOverlay
      cryptsetup
