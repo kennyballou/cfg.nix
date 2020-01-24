@@ -9,6 +9,7 @@ self: super:
       self.python37Packages.ipython
       self.python37Packages.setuptools
       self.python3Packages.pip
+      self.python3Packages.virtualenv
     ];
   };
 }
