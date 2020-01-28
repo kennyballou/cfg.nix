@@ -20,6 +20,7 @@
       ../services/dbus.nix
       ../services/haveged.nix
       ../services/printing.nix
+      ../services/syncthing.nix
       ../system/bluetooth.nix
       ../system/ca.nix
       ../system/documentation.nix
