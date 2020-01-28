@@ -10,7 +10,7 @@
      aspellDicts.en
      aspellDicts.en-computers
      aspellDicts.en-science
-     awscli
+     aws-overlay
      autogen
      bash-completion
      bashInteractive
