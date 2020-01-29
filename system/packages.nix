@@ -23,6 +23,7 @@
      clementine
      cppOverlay
      cryptsetup
+     data-analysis-overlay
      dejavu_fonts
      diffstat
      diffutils
