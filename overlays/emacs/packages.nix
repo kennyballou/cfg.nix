@@ -153,6 +153,7 @@ pkgs: epkgs: with epkgs;
   session
   skewer-less
   skewer-mode
+  smartparens
   smex
   smooth-scrolling
   spaceline
