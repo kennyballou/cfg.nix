@@ -6,6 +6,7 @@ self: super:
       self.ammonite
       self.ant
       self.maven
+      self.gradle
       self.jmeter
       self.openjdk
       self.sbt
