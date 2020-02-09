@@ -61,6 +61,7 @@ table inet filter {
         tcp dport postgresql counter accept
         tcp dport nntps counter accept
         udp dport nntps counter accept
+        tcp dport 5222 counter accept
         counter
     }
 }
