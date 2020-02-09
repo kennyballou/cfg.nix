@@ -113,6 +113,7 @@
      patchutils
      pciutils
      pdftk
+     pidgin-overlay
      plantuml
      poppler_utils
      pstree
