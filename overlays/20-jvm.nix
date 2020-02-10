@@ -5,6 +5,7 @@ self: super:
     paths = [
       self.ammonite
       self.ant
+      self.aspectj
       self.maven
       self.gradle
       self.jmeter
