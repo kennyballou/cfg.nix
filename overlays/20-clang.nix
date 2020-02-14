@@ -5,6 +5,7 @@ self: super:
     paths = [
       self.clang
       self.clang-tools
+      self.llvm
     ];
   };
 }
