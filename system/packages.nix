@@ -77,6 +77,7 @@
      jvmOverlay
      kde-gtk-config
      kdeApplications.akonadi
+     kdeApplications.ark
      kdeApplications.gwenview
      kdeApplications.kcachegrind
      kdeApplications.korganizer
