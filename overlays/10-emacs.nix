@@ -1,7 +1,12 @@
 self: super:
 let
 
-  emacsWithPkgs = self.emacsWithPackages
+  emacs = (super.pkgs.emacs.override {
+    # enable lucid
+    withGTK3 = false;
+    withGTK2 = false;
+  });
+  emacsWithPkgs = (self.emacsPackagesGen emacs).emacsWithPackages
     (import ./emacs/packages.nix { epkgs = self.emacsPackages; });
 
   in {
