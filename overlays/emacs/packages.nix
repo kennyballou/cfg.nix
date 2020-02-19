@@ -10,6 +10,7 @@ pkgs: epkgs: with epkgs;
   autodisass-java-bytecode
   avy
   bind-key
+  bnf-mode
   browse-kill-ring
   buffer-move
   bundler
