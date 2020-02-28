@@ -94,6 +94,7 @@
      mercurial
      mitmproxy
      mkpasswd
+     ml-overlay
      msmtp
      mtr
      mu
