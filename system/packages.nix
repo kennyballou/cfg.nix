@@ -161,6 +161,7 @@
      wireshark-qt
      wordnet
      wyrd
+     xbindkeys
      xorg.xev
      xsv
      xz
