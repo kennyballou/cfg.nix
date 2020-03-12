@@ -95,6 +95,7 @@
      mitmproxy
      mkpasswd
      ml-overlay
+     mpd
      msmtp
      mtr
      mu
