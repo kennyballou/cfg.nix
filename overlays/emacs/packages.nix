@@ -110,6 +110,7 @@ pkgs: epkgs: with epkgs;
   markdown-mode
   meghanada
   mmm-mode
+  mpdel
   multiple-cursors
   multiple-cursors
   mwim
