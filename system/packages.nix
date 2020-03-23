@@ -56,6 +56,7 @@
      gnused
      gnutar
      gnutls
+     gptfdisk
      goOverlay
      graphviz-nox
      groff
