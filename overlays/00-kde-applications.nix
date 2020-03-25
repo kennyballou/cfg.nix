@@ -9,6 +9,9 @@ self: super:
       self.kdeApplications.ark
       self.kdeApplications.gwenview
       self.kdeApplications.kcachegrind
+      self.kdeApplications.kdepim-addons
+      self.kdeApplications.kdepim-apps-libs
+      self.kdeApplications.kdepim-runtime
       self.kdeApplications.korganizer
       self.kdeApplications.okular
     ];
