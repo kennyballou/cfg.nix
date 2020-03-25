@@ -76,13 +76,7 @@
      jq
      jsOverlay
      jvmOverlay
-     kde-gtk-config
-     kdeApplications.akonadi
-     kdeApplications.ark
-     kdeApplications.gwenview
-     kdeApplications.kcachegrind
-     kdeApplications.korganizer
-     kdeApplications.okular
+     kde-applications
      langOverlay
      ledger
      less
