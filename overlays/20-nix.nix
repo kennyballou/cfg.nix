@@ -2,6 +2,7 @@ self: super:
 {
   nixOverlay = super.buildEnv {
     name = "nixOverlay";
+    ignoreCollisions = true;
     paths = [
       self.nix-bash-completions
       self.nix-delegate

@@ -2,6 +2,7 @@ self: super:
 {
   pythonOverlay = super.buildEnv {
     name = "pythonOverlay";
+    ignoreCollisions = true;
     paths = [
       self.python3
       self.python37Packages.gprof2dot

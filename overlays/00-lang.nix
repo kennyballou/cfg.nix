@@ -2,6 +2,7 @@ self: super:
 {
   langOverlay = self.buildEnv {
     name = "langOverlay";
+    ignoreCollisions = true;
     paths = [
       self.autoconf
       self.autogen

@@ -2,6 +2,7 @@ self: super:
 {
   rustOverlay = super.buildEnv {
     name = "rustOverlay";
+    ignoreCollisions = true;
     paths = [
       self.cargo
       self.cargo-tree

@@ -2,6 +2,7 @@ self: super:
 {
   cppOverlay = super.buildEnv {
     name = "cppOverlay";
+    ignoreCollisions = true;
     paths = [
       self.boost
       self.cmake

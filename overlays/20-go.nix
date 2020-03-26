@@ -2,6 +2,7 @@ self: super:
 {
   goOverlay = super.buildEnv {
     name = "goOverlay";
+    ignoreCollisions = true;
     paths = [
       self.delve
       self.glide

@@ -2,6 +2,7 @@ self: super:
 {
   data-analysis-overlay = super.buildEnv {
     name = "data-analysis";
+    ignoreCollisions = true;
     paths = [
       self.python3
       self.python37Packages.ipdb

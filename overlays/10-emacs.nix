@@ -15,6 +15,7 @@ let
 
     emacsOverlay = super.buildEnv {
       name = "emacsTools";
+      ignoreCollisions = true;
       paths = [
         emacsWithPkgs
         self.mu

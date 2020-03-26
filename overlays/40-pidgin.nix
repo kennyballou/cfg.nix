@@ -2,6 +2,7 @@ self: super:
 {
   pidgin-overlay = super.buildEnv {
     name = "pidgin-overlay";
+    ignoreCollisions = true;
     paths = [
       self.pidgin
       self.pidgin-carbons

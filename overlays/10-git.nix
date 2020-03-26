@@ -2,6 +2,7 @@ self: super:
 {
   gitOverlay = super.buildEnv {
     name = "gitOverlay";
+    ignoreCollisions = true;
     paths = [
       self.gitFull
       self.gitAndTools.git-crypt
