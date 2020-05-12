@@ -21,7 +21,7 @@ self: super:
       self.kdeApplications.kalarm
       self.kdeApplications.kalarmcal
       self.kdeApplications.kcachegrind
-      self.kdeApplications.kcontacts
+      self.kdeFrameworks.kcontacts
       self.kdeApplications.kcharselect
       self.kdeApplications.kdav
       self.kdeApplications.kdenetwork-filesharing
