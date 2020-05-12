@@ -65,7 +65,6 @@
      htmlTidy
      htop
      httperf
-     idutils
      imagemagick
      imgcat
      inkscape.out
