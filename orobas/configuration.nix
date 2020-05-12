@@ -25,6 +25,7 @@
       ../system/ca.nix
       ../system/documentation.nix
       ../system/fonts.nix
+      ../system/console.nix
       ../system/i18n.nix
       ../system/networking.nix
       ../system/packages.nix
