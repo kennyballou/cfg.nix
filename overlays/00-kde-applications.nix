@@ -25,7 +25,6 @@ self: super:
       self.kdeApplications.kcharselect
       self.kdeApplications.kdav
       self.kdeApplications.kdenetwork-filesharing
-      self.kdeApplications.kdepim-addons
       self.kdeApplications.kdepim-apps-libs
       self.kdeApplications.kdepim-runtime
       self.kdeApplications.kidentitymanagement
