@@ -19,7 +19,6 @@
       ../services/kde.nix
       ../services/dbus.nix
       ../services/haveged.nix
-      ../services/redshift.nix
       ../services/sshd.nix
       ../system/ca.nix
       ../system/console.nix
