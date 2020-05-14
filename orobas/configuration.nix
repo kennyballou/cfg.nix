@@ -32,6 +32,8 @@
       ../system/users.nix
       ../system/wireshark.nix
       ../system/yubikey-gpg.nix
+      ../programs/mtr.nix
+      ../programs/gnupg.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
