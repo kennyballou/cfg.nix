@@ -5,6 +5,7 @@ self: super:
     ignoreCollisions = true;
     paths = [
       self.gitFull
+      self.gitAndTools.delta
       self.gitAndTools.git-crypt
       self.gitAndTools.gitFastExport
       self.gitAndTools.pass-git-helper
