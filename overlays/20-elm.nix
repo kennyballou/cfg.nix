@@ -6,6 +6,7 @@ self: super:
     paths = [
       self.elmPackages.elm
       self.elmPackages.elm-format
+      self.elmPackages.elm-test
     ];
   };
 }
