@@ -15,6 +15,7 @@
       ../services/dnsmasq.nix
       ../services/sound.nix
       ../services/x11.nix
+      ../services/x11-intel.nix
       ../services/x11-laptop.nix
       ../services/kde.nix
       ../services/dbus.nix
