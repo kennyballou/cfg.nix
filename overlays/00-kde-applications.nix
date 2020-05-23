@@ -40,6 +40,7 @@ self: super:
       self.kdeApplications.pimcommon
       self.kdeApplications.ksmtp
       self.kdeApplications.spectacle
+      self.plasma5.plasma-browser-integration
       self.plasma5.user-manager
     ];
   };
