@@ -7,10 +7,14 @@ self: super:
       self.ammonite
       self.ant
       self.aspectj
-      self.maven
+      self.clj-kondo
+      self.clojure
+      self.clojure-lsp
       self.gradle
-      self.jmeter
       self.jdk11
+      self.jmeter
+      self.leiningen
+      self.maven
       self.sbt
       self.scala
       self.scalafmt
