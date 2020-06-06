@@ -45,7 +45,18 @@
       "/dev/disk/by-id/wwn-0x5002538e000c21b7"
       "/dev/disk/by-id/wwn-0x5002538e40de02bf"
   ];
-  boot.initrd.luks.devices.cryptroot.device = "/dev/disk/by-uuid/64dbda22-7a05-4d1c-a64b-bbbc779f1bdc";
+  boot.initrd.luks = {
+    gpgSupport = true;
+    devices = {
+      cryptroot = {
+        device = "/dev/disk/by-uuid/64dbda22-7a05-4d1c-a64b-bbbc779f1bdc";
+        gpgCard = {
+          publicKey = ./public.asc;
+          encryptedPass = ./luks-passphrase.asc;
+        };
+      };
+    };
+  };
   boot.blacklistedKernelModules = [
     "iptables"
   ];
