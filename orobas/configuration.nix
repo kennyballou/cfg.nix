@@ -36,13 +36,18 @@
       ../programs/mtr.nix
       ../programs/gnupg.nix
       ./packages.nix
+      ./overrides/dnsmasq.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  boot.initrd.luks.devices.luks-9185ee93-a666-485c-a8c1-f96001a44ff9.device = "/dev/disk/by-uuid/9185ee93-a666-485c-a8c1-f96001a44ff9";
+  boot.initrd.luks.devices = {
+    luks-9185ee93-a666-485c-a8c1-f96001a44ff9 = {
+      device = "/dev/disk/by-uuid/9185ee93-a666-485c-a8c1-f96001a44ff9";
+    };
+  };
   boot.blacklistedKernelModules = [
     "ip_tables"
   ];
