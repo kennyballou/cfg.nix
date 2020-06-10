@@ -18,7 +18,7 @@
       ../services/x11.nix
       ../services/x11-intel.nix
       ../services/x11-laptop.nix
-      ../services/kde.nix
+      ../services/gnome.nix
       ../services/haveged.nix
       ../services/printing.nix
       ../system/bluetooth.nix
@@ -35,6 +35,7 @@
       ../system/yubikey-gpg.nix
       ../programs/mtr.nix
       ../programs/gnupg.nix
+      ./packages.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
