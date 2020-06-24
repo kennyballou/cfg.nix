@@ -167,6 +167,7 @@ pkgs: epkgs: with epkgs;
   typescript-mode
   undo-tree
   unfill
+  unicode-fonts
   unicode-whitespace
   uptimes
   use-package
