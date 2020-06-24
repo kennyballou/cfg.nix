@@ -69,7 +69,7 @@ pkgs: epkgs: with epkgs;
   go-eldoc
   go-mode
   go-stacktracer
-  goto-gem
+  #goto-gem
   gnuplot
   graphviz-dot-mode
   guide-key
