@@ -17,7 +17,7 @@
       ../services/x11.nix
       ../services/x11-laptop.nix
       ../services/x11-amdgpu.nix
-      ../services/kde.nix
+      ../services/gnome.nix
       ../services/dbus.nix
       ../services/haveged.nix
       ../services/sshd.nix
@@ -100,6 +100,8 @@
   boot.blacklistedKernelModules = [
     "iptables"
   ];
+
+  services.xserver.displayManager.gdm.wayland = false;
 
   # This value determines the NixOS release with which your system is to be
   # compatible, in order to avoid breaking some software such as database
