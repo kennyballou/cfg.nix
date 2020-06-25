@@ -75,7 +75,6 @@
      jq
      jsOverlay
      jvmOverlay
-     kde-applications
      langOverlay
      ledger
      less
