@@ -48,6 +48,7 @@
      gawk
      gimp
      gitOverlay
+     gnome-applications
      gnugrep
      gnumake
      gnupg
