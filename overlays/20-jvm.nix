@@ -7,7 +7,7 @@ self: super:
       self.ammonite
       self.ant
       self.aspectj
-      self.clj-kondo
+      #self.clj-kondo
       self.clojure
       self.clojure-lsp
       self.gradle
