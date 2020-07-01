@@ -17,7 +17,7 @@
       ../services/x11.nix
       ../services/x11-intel.nix
       ../services/x11-laptop.nix
-      ../services/kde.nix
+      ../services/gnome.nix
       ../services/dbus.nix
       ../services/haveged.nix
       ../services/printing.nix
@@ -62,6 +62,8 @@
   ];
 
   networking.hostName = "phenex";
+
+  services.xserver.displayManager.gdm.wayland = false;
 
   # This value determines the NixOS release with which your system is to be
   # compatible, in order to avoid breaking some software such as database
