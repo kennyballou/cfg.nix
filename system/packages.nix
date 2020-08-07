@@ -93,6 +93,7 @@
      mtr
      mu
      ncdu
+     ncmpcpp
      nfs-utils
      nixOverlay
      nmap
