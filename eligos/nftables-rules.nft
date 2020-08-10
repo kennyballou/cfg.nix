@@ -62,6 +62,7 @@ table inet filter {
         tcp dport nntps counter accept
         udp dport nntps counter accept
         tcp dport 5222 counter accept
+        tcp dport 6697 counter accept
         counter
     }
 }

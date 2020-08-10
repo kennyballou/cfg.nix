@@ -57,6 +57,7 @@ table inet filter {
         tcp dport postgresql ip daddr { 127.0.0.1/8, 10.0.0.0/8 } counter accept
         ip daddr 127.0.0.0/8 counter accept
         tcp dport 5222 counter accept
+        tcp dport 6697 counter accept
         counter
     }
 }
