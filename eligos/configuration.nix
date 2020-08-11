@@ -20,6 +20,7 @@
       ../services/gnome.nix
       ../services/dbus.nix
       ../services/haveged.nix
+      ../services/printing.nix
       ../services/sshd.nix
       ../system/ca.nix
       ../system/console.nix
