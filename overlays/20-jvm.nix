@@ -1,5 +1,9 @@
 self: super:
-{
+let
+  maven = (super.pkgs.maven.override {
+    jdk = self.jdk11;
+  });
+in {
   jvmOverlay = super.buildEnv {
     name = "jvmOverlay";
     ignoreCollisions = true;
@@ -14,7 +18,7 @@ self: super:
       self.jdk11
       self.jmeter
       self.leiningen
-      self.maven
+      maven
       self.sbt
       self.scala
       self.scalafmt
