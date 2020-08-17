@@ -33,6 +33,7 @@ pkgs: epkgs: with epkgs;
   docker-compose-mode
   docker-tramp
   dockerfile-mode
+  doom-themes
   editorconfig
   edts
   ein
@@ -158,6 +159,8 @@ pkgs: epkgs: with epkgs;
   smartparens
   smex
   smooth-scrolling
+  solarized-theme
+  spacemacs-theme
   spaceline
   swiper
   swiper-helm
