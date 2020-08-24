@@ -24,6 +24,7 @@ pkgs: epkgs: with epkgs;
   counsel-tramp
   css-eldoc
   csv
+  dap-mode
   define-word
   delight
   diff-hl
@@ -85,6 +86,7 @@ pkgs: epkgs: with epkgs;
   helm-flycheck
   helm-flyspell
   helm-gtags
+  helm-lsp
   helm-mu
   helm-projectile
   helm-sql-connect
@@ -99,7 +101,6 @@ pkgs: epkgs: with epkgs;
   import-js
   inf-ruby
   ivy
-  jdee
   jedi
   js-comint
   js2-mode
@@ -107,6 +108,9 @@ pkgs: epkgs: with epkgs;
   ledger-mode
   less-css-mode
   list-unicode-display
+  lsp-mode
+  lsp-java
+  lsp-ui
   magit
   markdown-mode
   meghanada
@@ -145,6 +149,7 @@ pkgs: epkgs: with epkgs;
   rainbow-delimiters
   rainbow-mode
   realgud
+  realgud-jdb
   regex-tool
   robe
   rspec-mode
@@ -181,5 +186,6 @@ pkgs: epkgs: with epkgs;
   with-editor
   xref-js2
   yari
+  yasnippet
   zenburn-theme
 ]
