@@ -22,6 +22,7 @@ pkgs: epkgs: with epkgs;
   counsel
   counsel-projectile
   counsel-tramp
+  coverlay
   css-eldoc
   csv
   dap-mode
