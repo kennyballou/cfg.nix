@@ -90,6 +90,7 @@ pkgs: epkgs: with epkgs;
   helm-lsp
   helm-mu
   helm-projectile
+  helm-rg
   helm-sql-connect
   helm-tramp
   helm-wordnet
