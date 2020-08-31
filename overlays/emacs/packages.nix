@@ -75,7 +75,6 @@ pkgs: epkgs: with epkgs;
   #goto-gem
   gnuplot
   graphviz-dot-mode
-  guide-key
   guix
   gxref
   haml-mode
@@ -183,6 +182,7 @@ pkgs: epkgs: with epkgs;
   use-package
   virtualenvwrapper
   wgrep-ag
+  which-key
   whitespace-cleanup-mode
   whole-line-or-region
   with-editor
