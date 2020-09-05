@@ -114,7 +114,6 @@ pkgs: epkgs: with epkgs;
   lsp-ui
   magit
   markdown-mode
-  meghanada
   mmm-mode
   mpdel
   multiple-cursors
