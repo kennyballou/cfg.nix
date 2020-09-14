@@ -1,10 +1,11 @@
 self: super:
 let
+  jdk = self.pkgs.jdk11;
   maven = (super.pkgs.maven.override {
-    jdk = self.jdk11;
+    jdk = jdk;
   });
   leiningen = (super.pkgs.leiningen.override {
-    jdk = self.jdk11;
+    jdk = jdk;
   });
 in {
   jvmOverlay = super.buildEnv {
@@ -18,7 +19,7 @@ in {
       self.clojure
       self.clojure-lsp
       self.gradle
-      self.jdk11
+      jdk
       self.jmeter
       leiningen
       maven
