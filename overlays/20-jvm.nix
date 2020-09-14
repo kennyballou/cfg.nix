@@ -3,6 +3,9 @@ let
   maven = (super.pkgs.maven.override {
     jdk = self.jdk11;
   });
+  leiningen = (super.pkgs.leiningen.override {
+    jdk = self.jdk11;
+  });
 in {
   jvmOverlay = super.buildEnv {
     name = "jvmOverlay";
@@ -17,7 +20,7 @@ in {
       self.gradle
       self.jdk11
       self.jmeter
-      self.leiningen
+      leiningen
       maven
       self.sbt
       self.scala
