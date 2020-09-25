@@ -137,6 +137,7 @@
      subversion
      svg2tikz
      tcpdump
+     telepathy-overlay
      tex-overlay
      time
      tmux
