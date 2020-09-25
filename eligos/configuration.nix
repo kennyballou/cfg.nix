@@ -9,6 +9,7 @@
     [ ../hardware-configuration.nix
       ../secrets.nix
       ../overlays.nix
+      ../unfree.nix
       ../services/clamav.nix
       ../services/firewall.nix
       ../services/docker.nix
