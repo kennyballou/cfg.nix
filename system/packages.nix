@@ -118,6 +118,7 @@
      pwgen
      pythonOverlay
      qrencode
+     r-overlay
      rclone
      remind
      renameutils
