@@ -140,6 +140,7 @@
      tex-overlay
      time
      tmux
+     tokei
      tree
      unzip
      urlwatch
