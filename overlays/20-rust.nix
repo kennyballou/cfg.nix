@@ -7,6 +7,7 @@ self: super:
       self.cargo
       self.cargo-tree
       self.cargo-update
+      self.rls
       self.rustc
       self.rustracer
     ];
