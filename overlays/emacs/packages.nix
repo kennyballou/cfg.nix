@@ -111,6 +111,7 @@ pkgs: epkgs: with epkgs;
   ledger-mode
   less-css-mode
   list-unicode-display
+  lsp-haskell
   lsp-mode
   lsp-java
   lsp-ui
