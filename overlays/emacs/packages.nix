@@ -57,6 +57,8 @@ pkgs: epkgs: with epkgs;
   flycheck-elm
   flycheck-haskell
   flycheck-ledger
+  flycheck-ocaml
+  flycheck-rust
   fold-dwim
   forge
   fullframe
