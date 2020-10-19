@@ -37,6 +37,7 @@
       ../system/yubikey-gpg.nix
       ../programs/mtr.nix
       ../programs/gnupg.nix
+      ../system/nix.nix
     ];
 
   # Use the GRUB 2 boot loader.
