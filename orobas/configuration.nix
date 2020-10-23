@@ -34,7 +34,6 @@
       ../system/wireshark.nix
       ../system/yubikey-gpg.nix
       ../programs/mtr.nix
-      ../programs/gnupg.nix
       ../system/nix.nix
       ./packages.nix
       ./overrides/dnsmasq.nix
