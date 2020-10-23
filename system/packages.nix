@@ -2,152 +2,87 @@
 {
   # System packages
   environment.systemPackages = with pkgs; [
-     alacritty
      ag
      apg
      aria2
      aspell
-     aspellDicts.en
-     aspellDicts.en-computers
-     aspellDicts.en-science
-     aws-overlay
      autogen
      bash-completion
      bashInteractive
-     bazaar
-     beam-overlay
      cacert
-     chromium
      clamav
-     clang-overlay
-     clementine
-     cppOverlay
      cryptsetup
-     data-analysis-overlay
-     dejavu_fonts
      diffstat
      diffutils
-     ditaa
      dnsutils
      dos2unix
      dot2tex
-     doxygen
      duplicity
-     elmOverlay
-     emacsOverlay
-     enchant
      entr
      exiv2
      fd
      ffmpeg
      file
      findutils
-     firefox
+     fonts-overlay
      fontconfig
      fzf
      gawk
      gimp
-     gitOverlay
      gnome-applications
      gnugrep
      gnumake
      gnupg
-     gnuplot
      gnused
      gnutar
      gnutls
      gptfdisk
-     goOverlay
-     graphviz-nox
      groff
-     hammer
      haveged
-     highlight
-     htmlTidy
      htop
      httperf
-     imagemagick
-     imgcat
-     inkscape.out
      iotop
      iperf
-     isync
      jq
-     jsOverlay
-     jvmOverlay
-     langOverlay
-     ledger
      less
-     libreoffice
-     librsvg
      linux-overlay
      lsof
      ltrace
      m4
-     mercurial
      mitmproxy
      mkpasswd
-     ml-overlay
-     mpd
-     msmtp
      mtr
-     mu
      ncdu
-     ncmpcpp
      nfs-utils
      nixOverlay
      nmap
-     octave
      openssh
      openssl
      openvpn
-     p7zip
-     pandoc
-     paperkey
      parallel
-     pass
      patch
      patchutils
      pciutils
-     pdftk
-     pidgin-overlay
-     plantuml
-     poppler_utils
      pstree
      pv
      pwgen
-     pythonOverlay
-     qrencode
-     r-overlay
      rclone
-     remind
      renameutils
      ripgrep
      rsync
-     rtags
-     rustOverlay
-     scheme-overlay
      screen
      shellcheck
      silver-searcher
      smartmontools
      socat
-     sourceHighlight
      stow
      strace
-     subversion
-     svg2tikz
      tcpdump
-     telepathy-overlay
-     tex-overlay
      time
      tmux
-     tokei
      tree
      unzip
-     urlwatch
      vim
-     vlc
      virtualizationOverlay
      w3m
      watch
@@ -155,10 +90,7 @@
      wavemon
      wget
      whois
-     wireshark-qt
      wordnet
-     wyrd
-     xbindkeys
      xorg.xev
      xsv
      xz
