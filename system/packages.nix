@@ -24,7 +24,6 @@
      ffmpeg
      file
      findutils
-     fonts-overlay
      fontconfig
      fzf
      gawk
