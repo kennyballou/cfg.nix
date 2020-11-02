@@ -28,6 +28,7 @@
      fzf
      gawk
      gimp
+     git
      gnome-applications
      gnugrep
      gnumake
