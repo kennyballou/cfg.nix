@@ -1,8 +1,9 @@
 { config, ... }:
 {
   # Enable the X11 windowing system.
-  services.xserver.enable = true;
-  services.xserver.layout = "us";
-  # services.xserver.xkbVarient = "";
-  services.xserver.xkbOptions = "ctrl:nocaps";
+  services.xserver = {
+    enable = true;
+    layout = "us";
+    xkbOptions = "compose:ralt,terminate:ctrl_alt_bksp,ctrl:nocaps";
+  };
 }
