@@ -9,4 +9,7 @@
   };
   programs.dconf.enable = true;
   services.dbus.packages = with pkgs; [ gnome2.GConf ];
+  services.udev.packages = with pkgs; [
+    gnome3.gnome-settings-daemon
+  ];
 }
