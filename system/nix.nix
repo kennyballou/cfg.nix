@@ -1,12 +1,12 @@
-{ config, pkgs, ... }:
+{ config, lib, pkgs, ... }:
 {
   nix = {
     trustedUsers = [ "@wheel" ];
-    daemonIONiceLevel = 3;
-    daemonNiceLevel = 17;
+    daemonIONiceLevel = lib.mkDefault 3;
+    daemonNiceLevel = lib.mkDefault 17;
     gc = {
       automatic = true;
-      options = "--delete-older-than 14d";
+      options = lib.mkDefault "--delete-older-than 14d";
     };
     optimise = {
       automatic = true;
