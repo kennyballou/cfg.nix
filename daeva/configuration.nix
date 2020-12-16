@@ -12,7 +12,6 @@
       ../unfree.nix
       ../services/clamav.nix
       ../services/firewall.nix
-      ../services/docker.nix
       ../services/dnsmasq.nix
       ../services/sound.nix
       ../services/x11.nix
@@ -40,16 +39,39 @@
     ];
 
   # Use the GRUB 2 boot loader.
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
+  boot.loader.systemd-boot = {
+    enable = true;
+    editor = false;
+  };
+  boot.loader.efi = {
+    canTouchEfiVariables = false;
+  };
+  boot.loader.grub = {
+    enable = true;
+    copyKernels = true;
+    efiInstallAsRemovable = true;
+    efiSupport = true;
+    fsIdentifier = "uuid";
+    splashMode = "stretch";
+    version = 2;
+    device = "nodev";
+    extraEntries = ''
+      menuentry "Reboot" {
+        reboot
+      }
+      menuentry "Poweroff" {
+        halt
+      }
+    '';
+  };
 
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
   boot.initrd.luks = {
     gpgSupport = true;
-    device = {
-      luks- = {
-        device = "/dev/disk/by-uuid/";
+    devices = {
+      luks-9e4050f4-5dce-4a64-88e8-61b82dd1d98b = {
+        device = "/dev/disk/by-uuid/9e4050f4-5dce-4a64-88e8-61b82dd1d98b";
         gpgCard = {
           publicKey = ./public.asc;
           encryptedPass = ./luks-passphrase.asc;
@@ -63,6 +85,9 @@
 
   networking.hostName = "daeva";
 
+  services.xserver.displayManager.gdm.wayland = true;
+
+  nix.maxJobs = 4;
   # Only keep a week instead of 2
   nix.gc.options = "--delete-older-than 7d";
 

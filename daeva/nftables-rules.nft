@@ -18,11 +18,6 @@ table inet filter {
     chain forward {
         type filter hook forward priority 0; policy drop;
         ct state established,related counter accept
-        ip saddr 172.16.0.0/12 ip daddr 0.0.0.0/8 counter accept
-        ip saddr 172.16.0.0/12 ip daddr 172.16.0.0/12 counter accept
-        iifname "docker0" oifname "enp0s25" counter accept
-        iifname "docker0" oifname "wlp2s0" counter accept
-        iifname "docker0" oifname != "docker0" counter accept
         counter
     }
 
@@ -60,30 +55,4 @@ table inet filter {
         tcp dport 6697 counter accept
         counter
     }
-}
-
-table ip nat {
-    chain prerouting {
-        type nat hook prerouting priority 0;
-        counter
-   }
-   chain postrouting {
-        type nat hook postrouting priority 100;
-        ip saddr 172.16.0.0/12 oifname enp0s25 counter masquerade
-        ip saddr 172.16.0.0/12 oifname wlp2s0 counter masquerade
-        counter
-   }
-}
-
-table ip6 nat {
-    chain prerouting {
-        type nat hook prerouting priority 0;
-        counter
-   }
-   chain postrouting {
-        type nat hook postrouting priority 100;
-        ip6 saddr fcdd::/48 oifname enp0s25 counter masquerade
-        ip6 saddr fcdd::/48 oifname wlp2s0 counter masquerade
-        counter
-   }
 }
