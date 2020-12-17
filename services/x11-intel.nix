@@ -1,6 +1,6 @@
 { config, ... }:
 {
   services.xserver.videoDrivers = [
-    "intel" "vesa"
+    "modesetting" "vesa" "intel"
   ];
 }
