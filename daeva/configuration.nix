@@ -86,8 +86,6 @@
 
   networking.hostName = "daeva";
 
-  services.xserver.displayManager.gdm.wayland = true;
-
   nix.maxJobs = 4;
   # Only keep a week instead of 2
   nix.gc.options = "--delete-older-than 7d";
