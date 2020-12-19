@@ -46,6 +46,7 @@
      jq
      less
      linux-overlay
+     lm_sensors
      lsof
      ltrace
      m4
