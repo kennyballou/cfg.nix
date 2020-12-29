@@ -5,38 +5,38 @@
 { config, pkgs, ... }:
 
 {
-  imports =
-    [ ../hardware-configuration.nix
-      ../secrets.nix
-      ../overlays.nix
-      ../unfree.nix
-      ../services/clamav.nix
-      ../services/firewall.nix
-      ../services/dnsmasq.nix
-      ../services/sound.nix
-      ../services/x11.nix
-      ../services/x11-intel.nix
-      ../services/x11-laptop.nix
-      ../services/gnome.nix
-      ../services/dbus.nix
-      ../services/haveged.nix
-      ../services/printing.nix
-      ../system/bluetooth.nix
-      ../system/ca.nix
-      ../system/console.nix
-      ../system/documentation.nix
-      ../system/fonts.nix
-      ../system/i18n.nix
-      ../system/networking.nix
-      ../system/opengl.nix
-      ../system/packages.nix
-      ../system/security.nix
-      ../system/timezone.nix
-      ../system/users.nix
-      ../system/wireshark.nix
-      ../system/yubikey-gpg.nix
-      ../programs/mtr.nix
-      ../system/nix.nix
+  imports = [
+    ../hardware-configuration.nix
+    ../overlays.nix
+    ../programs/mtr.nix
+    ../secrets.nix
+    ../services/clamav.nix
+    ../services/dbus.nix
+    ../services/dnsmasq.nix
+    ../services/firewall.nix
+    ../services/gnome.nix
+    ../services/haveged.nix
+    ../services/printing.nix
+    ../services/sound.nix
+    ../services/x11-intel.nix
+    ../services/x11-laptop.nix
+    ../services/x11.nix
+    ../system/bluetooth.nix
+    ../system/ca.nix
+    ../system/console.nix
+    ../system/documentation.nix
+    ../system/fonts.nix
+    ../system/i18n.nix
+    ../system/networking.nix
+    ../system/nix.nix
+    ../system/opengl.nix
+    ../system/packages.nix
+    ../system/security.nix
+    ../system/timezone.nix
+    ../system/users.nix
+    ../system/wireshark.nix
+    ../system/yubikey-gpg.nix
+    ../unfree.nix
     ];
 
   # Use the GRUB 2 boot loader.
