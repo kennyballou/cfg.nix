@@ -12,6 +12,7 @@ self: super:
       self.gnome3.gnome-themes-extra
       self.gnome3.gnome-themes-standard
       self.gnome3.gucharmap
+      self.gnomeExtensions.sound-output-device-chooser
     ];
   };
 }
