@@ -30,6 +30,7 @@
     ../system/documentation.nix
     ../system/fonts.nix
     ../system/i18n.nix
+    ../system/intel.nix
     ../system/networking.nix
     ../system/nix.nix
     ../system/opengl.nix
