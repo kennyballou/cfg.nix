@@ -18,6 +18,7 @@
     ../services/firewall.nix
     ../services/gnome.nix
     ../services/haveged.nix
+    ../services/podman.nix
     ../services/printing.nix
     ../services/sound.nix
     ../services/x11-intel.nix
