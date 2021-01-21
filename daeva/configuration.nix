@@ -8,6 +8,8 @@
   imports = [
     ../hardware-configuration.nix
     ../overlays.nix
+    ../packages/base.nix
+    ../packages/desktop.nix
     ../programs/mtr.nix
     ../secrets.nix
     ../services/clamav.nix
@@ -30,7 +32,6 @@
     ../system/networking.nix
     ../system/nix.nix
     ../system/opengl.nix
-    ../system/packages.nix
     ../system/security.nix
     ../system/timezone.nix
     ../system/users.nix
