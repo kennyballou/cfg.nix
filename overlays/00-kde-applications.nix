@@ -3,45 +3,45 @@ self: super:
   kde-applications = self.buildEnv {
     name = "kde-applications";
     ignoreCollisions = true;
-    paths = [
-      self.kde-gtk-config
-      self.kdeplasma-addons
-      self.kdeApplications.akonadi
-      self.kdeApplications.akonadi-calendar
-      self.kdeApplications.akonadi-contacts
-      self.kdeApplications.akonadi-mime
-      self.kdeApplications.akonadi-notes
-      self.kdeApplications.akonadi-search
-      self.kdeApplications.akonadiconsole
-      self.kdeApplications.ark
-      self.kdeApplications.dolphin
-      self.kdeApplications.dolphin-plugins
-      self.kdeApplications.gwenview
-      self.kdeApplications.kaddressbook
-      self.kdeApplications.kalarm
-      self.kdeApplications.kalarmcal
-      self.kdeApplications.kcachegrind
-      self.kdeFrameworks.kcontacts
-      self.kdeApplications.kcharselect
-      self.kdeApplications.kdav
-      self.kdeApplications.kdenetwork-filesharing
-      self.kdeApplications.kdepim-apps-libs
-      self.kdeApplications.kdepim-runtime
-      self.kdeApplications.kidentitymanagement
-      self.kdeApplications.kimap
-      self.kdeApplications.kio-extras
-      self.kdeApplications.kmbox
-      self.kdeApplications.kmime
-      self.kdeApplications.kmplot
-      self.kdeApplications.korganizer
-      self.kdeApplications.kompare
-      self.kdeApplications.libkdepim
-      self.kdeApplications.okular
-      self.kdeApplications.pimcommon
-      self.kdeApplications.ksmtp
-      self.kdeApplications.spectacle
-      self.plasma5.plasma-browser-integration
-      self.plasma5.user-manager
+    paths = with self; [
+      kde-gtk-config
+      kdeplasma-addons
+      kdeApplications.akonadi
+      kdeApplications.akonadi-calendar
+      kdeApplications.akonadi-contacts
+      kdeApplications.akonadi-mime
+      kdeApplications.akonadi-notes
+      kdeApplications.akonadi-search
+      kdeApplications.akonadiconsole
+      kdeApplications.ark
+      kdeApplications.dolphin
+      kdeApplications.dolphin-plugins
+      kdeApplications.gwenview
+      kdeApplications.kaddressbook
+      kdeApplications.kalarm
+      kdeApplications.kalarmcal
+      kdeApplications.kcachegrind
+      kdeFrameworks.kcontacts
+      kdeApplications.kcharselect
+      kdeApplications.kdav
+      kdeApplications.kdenetwork-filesharing
+      kdeApplications.kdepim-apps-libs
+      kdeApplications.kdepim-runtime
+      kdeApplications.kidentitymanagement
+      kdeApplications.kimap
+      kdeApplications.kio-extras
+      kdeApplications.kmbox
+      kdeApplications.kmime
+      kdeApplications.kmplot
+      kdeApplications.korganizer
+      kdeApplications.kompare
+      kdeApplications.libkdepim
+      kdeApplications.okular
+      kdeApplications.pimcommon
+      kdeApplications.ksmtp
+      kdeApplications.spectacle
+      plasma5.plasma-browser-integration
+      plasma5.user-manager
     ];
   };
 }

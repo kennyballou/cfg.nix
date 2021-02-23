@@ -3,18 +3,18 @@ self: super:
   gnome-applications = self.buildEnv {
     name = "gnome-applications";
     ignoreCollisions = true;
-    paths = [
-      self.gnome3.gnome-autoar
-      self.gnome3.gnome-boxes
-      self.gnome3.gnome-dictionary
-      self.gnome3.evolution-data-server
-      self.gnome3.evolution
-      self.gnome3.gnome-shell-extensions
-      self.gnome3.gnome-tweak-tool
-      self.gnome3.gnome-themes-extra
-      self.gnome3.gnome-themes-standard
-      self.gnome3.gucharmap
-      self.gnomeExtensions.sound-output-device-chooser
+    paths = with self; [
+      gnome3.gnome-autoar
+      gnome3.gnome-boxes
+      gnome3.gnome-dictionary
+      gnome3.evolution-data-server
+      gnome3.evolution
+      gnome3.gnome-shell-extensions
+      gnome3.gnome-tweak-tool
+      gnome3.gnome-themes-extra
+      gnome3.gnome-themes-standard
+      gnome3.gucharmap
+      gnomeExtensions.sound-output-device-chooser
     ];
   };
 }
