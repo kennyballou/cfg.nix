@@ -7,6 +7,8 @@ self: super:
       self.gnome3.gnome-autoar
       self.gnome3.gnome-boxes
       self.gnome3.gnome-dictionary
+      self.gnome3.evolution-data-server
+      self.gnome3.evolution
       self.gnome3.gnome-shell-extensions
       self.gnome3.gnome-tweak-tool
       self.gnome3.gnome-themes-extra
