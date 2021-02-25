@@ -13,6 +13,10 @@ table inet filter {
         tcp dport 8000 ip saddr 127.0.0.1/8 counter accept
         tcp dport 8384 ip saddr 127.0.0.1/8 counter accept
         tcp dport 8080 ip saddr { 127.0.0.1/8, 10.1.0.0/8 } counter accept
+        tcp dport 20048 ip saddr 10.0.0.0/8 counter accept
+        udp dport 20048 ip saddr 10.0.0.0/8 counter accept
+        udp dport 2049 ip saddr 10.0.0.0/8 counter accept
+        tcp dport 2049 ip saddr 10.0.0.0/8 counter accept
         tcp dport ssh counter accept
         counter
     }
