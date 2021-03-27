@@ -81,6 +81,7 @@
     wavemon
     wget
     whois
+    wireguard
     wordnet
     xsv
     xz
