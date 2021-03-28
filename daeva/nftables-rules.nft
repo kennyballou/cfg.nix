@@ -29,6 +29,7 @@ table inet filter {
         udp dport domain counter accept
         tcp dport http counter accept
         tcp dport https counter accept
+        udp dport https counter accept
         tcp dport ssh counter accept
         tcp dport bootps counter accept
         udp dport bootps counter accept
@@ -58,6 +59,7 @@ table inet filter {
 		tcp dport 20048 ip daddr 10.0.0.0/8 counter accept
 		udp dport 20048 ip daddr 10.0.0.0/8 counter accept
         tcp dport 13052 counter accept
+        udp dport 19302-19309 counter accept comment "Google Meet Ports"
         counter
     }
 }
