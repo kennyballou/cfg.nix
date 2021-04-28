@@ -17,6 +17,7 @@
     dot2tex
     duplicity
     entr
+    ethtool
     exiv2
     fd
     ffmpeg
