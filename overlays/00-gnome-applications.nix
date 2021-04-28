@@ -15,6 +15,7 @@ self: super:
       gnome3.gnome-themes-standard
       gnome3.gucharmap
       gnomeExtensions.sound-output-device-chooser
+      gnomeExtensions.gsconnect
     ];
   };
 }
