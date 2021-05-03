@@ -4,6 +4,6 @@
   services.printing = {
     enable = true;
     startWhenNeeded = true;
-    drivers = with pkgs; [ gutenprint hplip cups-googlecloudprint ];
+    drivers = with pkgs; [ gutenprint hplip ];
   };
 }

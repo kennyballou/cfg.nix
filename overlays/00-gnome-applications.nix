@@ -8,7 +8,6 @@ self: super:
       gnome3.gnome-boxes
       gnome3.gnome-dictionary
       gnome3.evolution-data-server
-      gnome3.evolution
       gnome3.gnome-shell-extensions
       gnome3.gnome-tweak-tool
       gnome3.gnome-themes-extra
