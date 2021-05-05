@@ -7,5 +7,6 @@
     gnome-applications
     picard
     xorg.xev
+    xorg.xkill
   ];
 }
