@@ -18,12 +18,14 @@
     ../services/firewall.nix
     ../services/gnome.nix
     ../services/haveged.nix
+    ../services/logind.nix
     ../services/podman.nix
     ../services/printing.nix
     ../services/sound.nix
     ../services/x11-intel.nix
     ../services/x11-laptop.nix
     ../services/x11.nix
+    ../services/upower.nix
     ../system/bluetooth.nix
     ../system/ca.nix
     ../system/console.nix
