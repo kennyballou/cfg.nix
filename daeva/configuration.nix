@@ -16,7 +16,7 @@
     ../services/dbus.nix
     ../services/dnsmasq.nix
     ../services/firewall.nix
-    ../services/gnome.nix
+    ../services/kde.nix
     ../services/haveged.nix
     ../services/logind.nix
     ../services/podman.nix

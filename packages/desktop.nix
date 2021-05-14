@@ -4,7 +4,7 @@
     calibre
     freecad
     gimp
-    gnome-applications
+    kde-applications
     picard
     vlc
     xorg.xev
