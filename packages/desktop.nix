@@ -6,6 +6,7 @@
     gimp
     gnome-applications
     picard
+    vlc
     xorg.xev
     xorg.xkill
   ];
