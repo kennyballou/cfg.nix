@@ -29,6 +29,7 @@ self: super:
       kdeconnect-kde
       kdenetwork-filesharing
       kdepim-runtime
+      kdegraphics-thumbnailers
       kidentitymanagement
       kimap
       kio-extras
