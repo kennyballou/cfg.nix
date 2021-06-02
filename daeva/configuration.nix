@@ -71,8 +71,6 @@
     '';
   };
 
-  boot.kernelPackages = pkgs.linuxPackages_latest;
-
   boot.initrd.luks = {
     gpgSupport = true;
     devices = {
