@@ -7,6 +7,7 @@ self: super:
       kde-gtk-config
       kdeplasma-addons
       akonadi
+      akonadi-calendar-tools
       akonadi-calendar
       akonadi-contacts
       akonadi-mime
@@ -18,7 +19,7 @@ self: super:
       dolphin-plugins
       gwenview
       kaccounts-integration
-      #kaccounts-providers
+      kaccounts-providers
       kaddressbook
       kalarm
       kalarmcal
@@ -33,6 +34,7 @@ self: super:
       kidentitymanagement
       kimap
       kio-extras
+      kio-gdrive
       kmbox
       kmix
       kmime
