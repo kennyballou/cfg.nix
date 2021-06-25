@@ -3,6 +3,12 @@
   hardware.bluetooth = {
     enable = true;
     package = pkgs.bluezFull;
-    powerOnBoot = false;
+    powerOnBoot = true;
+    hsphfpd.enable = true;
+    settings = {
+      General = {
+        DiscoverableTimeout = 60;
+      };
+    };
   };
 }
