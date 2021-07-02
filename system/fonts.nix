@@ -6,6 +6,7 @@
     ipafont
     kochi-substitute
     liberation_ttf
+    material-design-icons
     noto-fonts
     noto-fonts-cjk
     noto-fonts-emoji
