@@ -7,6 +7,7 @@
     kochi-substitute
     liberation_ttf
     material-design-icons
+    nerdfonts
     noto-fonts
     noto-fonts-cjk
     noto-fonts-emoji
@@ -17,6 +18,7 @@
 
   fonts.fontconfig.defaultFonts = {
     monospace = [
+      "DejaVu Sans Mono Nerd Font Complete Mono"
       "DejaVu Sans Mono"
       "IPAPGothic"
     ];
