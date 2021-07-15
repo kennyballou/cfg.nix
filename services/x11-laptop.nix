@@ -8,7 +8,7 @@
       accelSpeed = "0.5";
       disableWhileTyping = true;
       scrollMethod = "twofinger";
-      horizontalScrolling = false;
+      horizontalScrolling = true;
     };
   };
 }
