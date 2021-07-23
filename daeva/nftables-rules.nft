@@ -30,6 +30,8 @@ table inet filter {
         icmp type echo-request counter accept
         icmp type echo-reply counter accept
         udp dport domain counter accept
+        tcp dport domain-s counter accept
+        udp dport domain-s counter accept
         tcp dport http counter accept
         tcp dport https counter accept
         udp dport https counter accept

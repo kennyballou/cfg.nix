@@ -1,7 +1,9 @@
 { config, ... }:
 {
-  networking = {
-    nameservers = [
+  services.resolved = {
+    enable = true;
+    domains = [];
+    fallbackDns = [
       "1.1.1.1#one.one.one.one"
       "1.0.0.1#one.one.one.one"
       "9.9.9.9#dns.quad9.net"
@@ -12,6 +14,8 @@
       "2620:fe::fe#quad9.net"
       "2620:fe::9#quad9.net"
     ];
-    networkmanager.enable = true;
+    extraConfig = ''
+      DNSOverTLS=yes
+    '';
   };
 }

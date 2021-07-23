@@ -14,11 +14,12 @@
     ../secrets.nix
     ../services/clamav.nix
     ../services/dbus.nix
-    ../services/dnsmasq.nix
+    ../services/resolved.nix
     ../services/firewall.nix
     ../services/kde.nix
     ../services/haveged.nix
     ../services/logind.nix
+    ../services/networkmanager.nix
     ../services/podman.nix
     ../services/printing.nix
     ../services/sound.nix
@@ -42,7 +43,7 @@
     ../system/wireshark.nix
     ../system/yubikey-gpg.nix
     ../unfree.nix
-    ];
+  ];
 
   # Use the GRUB 2 boot loader.
   boot.loader.systemd-boot = {

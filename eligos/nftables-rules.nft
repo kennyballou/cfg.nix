@@ -39,6 +39,8 @@ table inet filter {
         iif lo oif lo counter accept
         ip saddr 127.0.0.1 ip daddr 127.0.0.1/8 counter accept
         udp dport domain counter accept
+        tcp dport domain-s counter accept
+        udp dport domain-s counter accept
         tcp dport http counter accept
         tcp dport https counter accept
         tcp dport ssh counter accept
