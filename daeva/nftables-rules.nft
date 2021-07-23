@@ -55,6 +55,7 @@ table inet filter {
         udp dport openvpn counter accept
         tcp dport postgresql ip daddr { 127.0.0.1/8, 10.0.0.0/8 } counter accept
         ip daddr 127.0.0.0/8 counter accept
+        ip6 daddr ::1 counter accept
         tcp dport 5222 counter accept
         tcp dport 6697 counter accept
         tcp dport 2049 ip daddr 10.0.0.0/8 counter accept
